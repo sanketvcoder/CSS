@@ -1,0 +1,35 @@
+/* universal selector */
+*{
+    font-family: monospace !important;
+}
+
+/* Element selector */
+
+body{
+    font-size: 22px;
+}
+
+p{
+    color: #800080;
+}
+
+h1,h2{
+    color: blueviolet;
+}
+
+p span{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/* class selector */
+
+.gray{
+    color: gray;
+}
+
+/* id selector */
+
+#third{
+    font-style: italic;
+}
